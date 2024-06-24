@@ -9,7 +9,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 95vh;
+    height: 100vh;
 }
 
 .container {
@@ -47,16 +47,4 @@ main {
     font-weight: 400;
     font-size: 15px;
     padding-bottom: 25px;
-}
-
-.attribution {
-    color: hsl(218, 44%, 22%);
-    font-size: 11px;
-    text-align: center;
-    bottom: 0;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
 }

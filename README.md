@@ -24,7 +24,7 @@ This is my first project on Frontend Mentor.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://lucasngtg.github.io/qr-code-component/](https://lucasngtg.github.io/qr-code-component/)
 
 ### Built with
 
