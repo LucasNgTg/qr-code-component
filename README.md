@@ -23,7 +23,7 @@ This is my first project on Frontend Mentor.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-and-css-wagOk6GEFU](https://www.frontendmentor.io/solutions/html-and-css-wagOk6GEFU)
 - Live Site URL: [https://lucasngtg.github.io/qr-code-component/](https://lucasngtg.github.io/qr-code-component/)
 
 ### Built with
