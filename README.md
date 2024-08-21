@@ -1,48 +1,26 @@
-# Frontend Mentor - QR code component solution
+# QR code component solution with infinite scroll
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a modified version of the solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-
-## Overview
-
-This is my first project on Frontend Mentor.
 
 ### Screenshot
 
+What it looked like
 ![](./images/screenshot.jpg)
+
+What it looks like now
+![](screenshot.jpg)
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/html-and-css-wagOk6GEFU](https://www.frontendmentor.io/solutions/html-and-css-wagOk6GEFU)
-- Live Site URL: [https://lucasngtg.github.io/qr-code-component/](https://lucasngtg.github.io/qr-code-component/)
-
-### Built with
-
-- Visual Studio Code
-- HTML
-- CSS
-
-### What I learned
-
-The most time consuming part was trying to figure out the style values by eye. 
-
-### Continued development
-
-CSS has a lot of properties that achieve visually similar goals, which made it somewhat challenging to judge which would be best to get the results I wanted. I'll keep working on getting used to them.
-
-### Useful resources
-
-- [Shadow presets](https://getcssscan.com/css-box-shadow-examples) - This saved me time having to create the ```box-shadow``` from scratch.
+- Solution URL: https://www.frontendmentor.io/solutions/html-and-css-wagOk6GEFU
+- Live Site URL: https://lucasngtg.github.io/qr-code-component/
 
 ## Author
 

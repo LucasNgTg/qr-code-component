@@ -3,6 +3,7 @@
     --card-color: white;
     --title-color: hsl(218, 44%, 22%);
     --text-color: hsl(220, 15%, 55%);
+    --with-transition: .3s ease-in-out;
 }
 
 body {
@@ -49,7 +50,7 @@ main {
     transform: scale(102%);
 }
 
-.container img {
+.container > img {
     max-height: 17rem;
     max-width: 17rem;
     border-radius: 12px;
@@ -75,6 +76,10 @@ main {
     max-height: 1.5rem;
     max-width: 1.5rem;
     transition: .3s ease-in-out;
+}
+
+.container .title img.rounded {
+    border-radius: 50%;
 }
 
 .container .title:hover {
@@ -109,12 +114,12 @@ main {
     --translation-amount: -50%;
 }
 
-.scroller__inner[data-selected="second"] {
-    --translation-amount: -12.5%;
-}
-
 .scroller__inner[data-selected="second__transition"] {
     --translation-amount: -62.5%;
+}
+
+.scroller__inner[data-selected="second"] {
+    --translation-amount: -12.5%;
 }
 
 .scroller__inner[data-selected="third"] {
@@ -126,15 +131,16 @@ main {
 }
 
 .scroller__inner[data-transition="true"] {
-    transition: .3s ease-in-out;
+    --transition-type: var(--with-transition);
 }
 
 .scroller__inner[data-transition="false"] {
-    transition: none;
+    --transition-type: none;
 }
 
 .scroller__inner {
     transform: translate(var(--translation-amount));
+    transition: var(--transition-type);
 }
 
 @keyframes tilt {
